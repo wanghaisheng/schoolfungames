@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Play Game</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +11,7 @@
             color: #F9FAFF;
             margin: 0;
             padding: 0;
-
+        }
         .home-button {
             display: inline-block;
             margin: 10px;
@@ -25,6 +24,7 @@
             text-align: center;
             text-decoration: none;
             font-size: 16px;
+        }
         .game-list {
             display: flex;
             flex-wrap: wrap;
@@ -66,28 +66,6 @@
             window.location.href = 'index.html';  // Adjust this path as needed
         }
     </script>
-</head>
-<body>
-    <header class="header">
-        <button class="home-button" onclick="goToHome()">Home</button>
-        <div class="search-container">
-           
-        </div>
-    </header>
-    <section class="game-list">
-       
-    </section>
-</body>
-</html>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play Game</title>
     <style>
         body, html {
             margin: 0;
@@ -406,15 +384,18 @@
     </script>
 </head>
 <body>
+     <header class="header">
+          <button class="home-button" onclick="goToHome()">Home</button>
+          <div class="search-container">
+             
+          </div>
+      </header>
+      <section class="game-list">
+         
+      </section>
     <div class="game-container">
         <iframe id="game-iframe" allow="gamepad *; fullscreen"></iframe>
         <button class="fullscreen-button" onclick="enterFullscreen()">Go Fullscreen</button>
     </div>
 </body>
 </html>
-
-
-
-
-
-
