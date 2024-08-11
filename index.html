@@ -156,12 +156,23 @@
         .game-item img {
             width: 100%;
             max-width: 200px;
+            min-height: 125px;
             height: auto;
             border-radius: 10px;
         }
         .game-item h3 {
             font-size: 18px;
             margin: 10px 0;
+        }
+        .game-hover img + img  {
+            display: none;
+        }
+        .game-item:hover img + img {
+            display: inline-block;
+        }
+        .game-item.game-hover:hover img:first-child {
+            opacity: 0;
+            position: absolute;
         }
     </style>
     <script>
@@ -195,310 +206,383 @@
     <section class="game-list">       </div>
      
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Taming'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Taming'">
             <img src="Screenshot 2024-07-28 211345.png" alt="https://taming.io">
+            <img src="taming.gif" alt="https://taming.io">
             <h3>Taming.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=bloxd'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=bloxd'">
             <img src="Screenshot 2024-07-28 172655.png" alt="Bloxd.io">
+            <img src="bloxdio.gif" alt="Bloxd.io">
             <h3>Bloxd.io</h3>
         </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=eaglercraft'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=eaglercraft'">
             <img src="Screenshot 2024-08-04 202725.png" alt="eaglercraft">
+            <img src="minecraft32.gif" alt="eaglercraft">
             <h3>eaglercraft</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=evoworld'">
-            <img src="Screenshot 2024-07-29 080402.png"alt="evoworld.io">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=evoworld'">
+            <img src="Screenshot 2024-07-29 080402.png"alt="evoworld.io"> 
+            <img src="evomoke.gif" alt="#">
             <h3>Evoworld.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=impostor'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=impostor'">
             <img src="Screenshot 2024-07-28 173334.png" alt="Impostor.io">
+            <img src="whyareyoulookingathis.gif" alt="Impostor.io">
             <h3>Impostor.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=paper'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=paper'">
             <img src="Screenshot 2024-07-28 173655.png" alt="https://paper-io.com/">
+            <img src="paperio - Made with Clipchamp.gif" alt="https://paper-io.com/">
             <h3>Paper.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=hole.io'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=hole.io'">
             <img src="Screenshot 2024-07-28 175530.png" alt="https://hole-io.com/">
+            <img src="holeio68.gif" alt="https://hole-io.com/">
             <h3>Hole io</h3>
        </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=ships3d'">
+            <img src="Screenshot 2024-07-28 180650.png" alt="https://yp3d.com/ships3d/">
+            <img src="ships3dko.gif" alt="#">
+            <h3>Ships 3d</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=flower'">
+            <img src="Screenshot 2024-07-28 180906.png" alt="https://krew.io/">
+            <img src="krew11.gif" alt="https://yp3d.com/ships3d/">
+            <h3>Krew.io 3d</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=goodwar'">
+            <img src="Screenshot 2024-07-28 181245.png" alt="https://warbrokers.io/">
+            <img src="wsinthechat.gif" alt="https://warbrokers.io/">
+            <h3>War brokers</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=amongus'">
+            <img src="Screenshot 2024-07-28 181520.png" alt="https://amongusplay.online/">
+            <img src="whyareyoureadingdis.gif" alt="https://amongusplay.online/">
+            <h3>Amongusplay.online</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=shellshock'">
+            <img src="Screenshot 2024-07-28 181715.png" alt="ShellShock.io">
+            <img src="285insrtmeme.gif" alt="ShellShock.io">
+            <h3>ShellShock.io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=nugget'">
+            <img src="Screenshot 2024-07-28 181810.png" alt="https://nuggetroyale.io/#Ketchup">
+            <img src="100 - Made with Clipchamp.gif" alt="#">
+            <h3>Nuggetroyale io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=landho'">
+            <img src="Screenshot 2024-07-28 182005.png" alt="https://landho.uk/">
+            <img src="101 - Made with Clipchamp.gif" alt="#">
+            <h3>Landho.io io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=tileman'">
+            <img src="Screenshot 2024-07-28 182121.png" alt="https://tileman.io/">
+            <img src="102 - Made with Clipchamp.gif" alt="#">
+            <h3>Tileman io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=dashcraft'">
+            <img src="Screenshot 2024-07-28 182420.png" alt="https://dashcraft.io/">
+            <img src="103 - Made with Clipchamp.gif" alt="#">
+            <h3>Dashcraft.io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=battletabs'">
+            <img src="Screenshot 2024-07-28 182616.png" alt="https://tyran.io/">
+            <img src="104 - Made with Clipchamp.gif" alt="#">
+            <h3>Tyran.io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=blocktanks'">
+            <img src="Screenshot 2024-07-28 182855.png" alt="https://ferals.io/">
+            <img src="104 - Made with Clipchamp (1).gif" alt="#">
+            <h3>ferals.io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=dudes'">
+            <img src="Screenshot 2024-07-28 182954.png" alt="https://battledudes.io/">
+            <img src="105 - Made with Clipchamp.gif" alt="#">
+            <h3>Battle dudes</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=gobattle'">
+            <img src="Screenshot 2024-07-28 183106.png" alt="https://gobattle.io/#!">
+            <img src="106 - Made with Clipchamp.gif" alt="#">
+            <h3>Gobattle.io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=goober'">
+            <img src="Screenshot 2024-07-28 183208.png" alt="https://gooberroyale.winterpixel.io/">
+            <img src="107 - Made with Clipchamp.gif" alt="#">
+            <h3>Goober royale</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=snake'">
+            <img src="Screenshot 2024-07-28 183302.png" alt="http://slither.com/io">
+            <img src="108 - Made with Clipchamp.gif" alt="#">
+            <h3>Slither.io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=gulper'">
+            <img src="Screenshot 2024-07-28 183404.png"alt="https://gulper.io/">
+            <img src="108 - Made with Clipchamp.gif" alt="#">
+            <h3>Gulper.io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=minigi'">
+            <img src="Screenshot 2024-07-28 183525.png"alt="https://minigiants.io/?v=1.6.74">
+            <img src="#" alt="#">
+            <h3>Minigiants.io</h3>
+       </div>
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=starblast'">
+            <img src="Screenshot 2024-07-28 200146.png"alt="https://starblast.io/mobile.html">
+            <img src="#" alt="#">
+            <h3>Starblast.io</h3>
+        </div>
         <div class="game-item" onclick="window.location.href='fullscreen.html?game=greendoor'">
             <img src="Screenshot 2024-07-28 175907.png" alt="https://voxiom.io/">
             <h3>Voxiom io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=ships3d'">
-            <img src="Screenshot 2024-07-28 180650.png" alt="https://yp3d.com/ships3d/">
-            <h3>Ships 3d</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=flower'">
-            <img src="Screenshot 2024-07-28 180906.png" alt="https://krew.io/">
-            <h3>Krew.io 3d</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=goodwar'">
-            <img src="Screenshot 2024-07-28 181245.png" alt="https://warbrokers.io/">
-            <h3>War brokers</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=amongus'">
-            <img src="Screenshot 2024-07-28 181520.png" alt="https://amongusplay.online/">
-            <h3>Amongusplay.online</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=shellshock'">
-            <img src="Screenshot 2024-07-28 181715.png" alt="ShellShock.io">
-            <h3>ShellShock.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=nugget'">
-            <img src="Screenshot 2024-07-28 181810.png" alt="https://nuggetroyale.io/#Ketchup">
-            <h3>Nuggetroyale io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=landho'">
-            <img src="Screenshot 2024-07-28 182005.png" alt="https://landho.uk/">
-            <h3>Landho.io io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=tileman'">
-            <img src="Screenshot 2024-07-28 182121.png" alt="https://tileman.io/">
-            <h3>Tileman io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=dashcraft'">
-            <img src="Screenshot 2024-07-28 182420.png" alt="https://dashcraft.io/">
-            <h3>Dashcraft.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=battletabs'">
-            <img src="Screenshot 2024-07-28 182616.png" alt="https://tyran.io/">
-            <h3>Tyran.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=blocktanks'">
-            <img src="Screenshot 2024-07-28 182855.png" alt="https://ferals.io/">
-            <h3>ferals.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=dudes'">
-            <img src="Screenshot 2024-07-28 182954.png" alt="https://battledudes.io/">
-            <h3>Battle dudes</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=gobattle'">
-            <img src="Screenshot 2024-07-28 183106.png" alt="https://gobattle.io/#!">
-            <h3>Gobattle.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=goober'">
-            <img src="Screenshot 2024-07-28 183208.png" alt="https://gooberroyale.winterpixel.io/">
-            <h3>Goober royale</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=snake'">
-            <img src="Screenshot 2024-07-28 183302.png" alt="http://slither.com/io">
-            <h3>Slither.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=gulper'">
-            <img src="Screenshot 2024-07-28 183404.png"alt="https://gulper.io/">
-            <h3>Gulper.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=minigi'">
-            <img src="Screenshot 2024-07-28 183525.png"alt="https://minigiants.io/?v=1.6.74">
-            <h3>Minigiants.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=starblast'">
-            <img src="Screenshot 2024-07-28 200146.png"alt="https://starblast.io/mobile.html">
-            <h3>Starblast.io</h3>
-       </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=diep'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=diep'">
             <img src="Screenshot 2024-07-28 200721.png">
+            <img src="#" alt="#">
             <h3>Diep.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=sploop'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=sploop'">
             <img src="Screenshot 2024-07-28 200835.png"alt="https://sploop.io/">
+            <img src="#" alt="#">
             <h3>Sploop.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=narwhale'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=narwhale'">
             <img src="Screenshot 2024-07-28 204923.png"alt="https://sploop.io/">
+            <img src="#" alt="#">
             <h3>narwhale.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=ev'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=ev'">
             <img src="Screenshot 2024-07-28 210343.png"alt="https://ev.io/">
+            <img src="#" alt="#">
             <h3>Ev.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=stug'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=stug'">
             <img src="Screenshot 2024-07-28 210756.png">
+            <img src="#" alt="#">
             <h3>Stug.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=apes'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=apes'">
             <img src="Screenshot 2024-07-28 210932.png" alt="https://apes.io/">
+            <img src="#" alt="#">
             <h3>Apes io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Taming'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Taming'">
             <img src="Screenshot 2024-07-28 211345.png" alt="https://taming.iao/o/">
+            <img src="#" alt="#">
             <h3>Taming.io</h3>   
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Krunker'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Krunker'">
             <img src="Screenshot 2024-07-28 211619.png" alt="https://krunker.io">
+            <img src="#" alt="#">
             <h3>Krunker.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=1v1.lol'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=1v1.lol'">
             <img src="Screenshot 2024-07-28 212446.png" alt="https://1v1.lol">
+            <img src="#" alt="#">
             <h3>1v1.lol</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Narrow one'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Narrow one'">
             <img src="Screenshot 2024-07-28 212744.png" alt="https://narrow.one">
+            <img src="#" alt="#">
             <h3>Narrow one</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Zombsroyale'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Zombsroyale'">
             <img src="Screenshot 2024-07-29 070228.png" alt="https://zombsroyale.io">
+            <img src="#" alt="#">
             <h3>Zombs Royale</h3>
        </div> 
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Yohoho'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Yohoho'">
             <img src="Screenshot 2024-07-29 070437.png" alt="https://yohoho.io">
+            <img src="#" alt="#">
             <h3>yohoho.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Lordz'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Lordz'">
             <img src="Screenshot 2024-07-29 070830.png" alt="https://lordz.io">
+            <img src="#" alt="#">
             <h3>Lordz.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Tanko'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Tanko'">
             <img src="Screenshot 2024-07-29 071209.png"      
             alt="https://html5.gamedistribution.com/0096623d22314e98ac7af01cbd5dfeca/">
+            <img src="#" alt="#">
             <h3>Tanko.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Stabfish'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Stabfish'">
             <img src="Screenshot 2024-07-29 071538.png" alt="https://stabfish2.io/#/">
+            <img src="#" alt="#">
             <h3>Stabfish2.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Astrodud'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Astrodud'">
             <img src="Screenshot 2024-07-29 071729.png" alt="https://astrodud.io">
+            <img src="#" alt="#">
             <h3>Astrodud.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Braainsio'">
-            <img src="Screenshot 2024-07-29 071906.png"          
-            alt="https://www.modd.io/play/braainsio/">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Braainsio'">
+            <img src="Screenshot 2024-07-29 071906.png" alt="https://www.modd.io/play/braainsio/">
+            <img src="#" alt="#">
             <h3>Braainsio.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Build'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Build'">
             <img src="Screenshot 2024-07-29 072609.png" alt="https://buildroyale.io">
+            <img src="#" alt="#">
             <h3>Buildroyale.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Skribbl'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Skribbl'">
             <img src="Screenshot 2024-07-29 072847.png" alt="https://skribbl.io">
+            <img src="#" alt="#">
             <h3>Skribbl.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Digdig'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Digdig'">
             <img src="Screenshot 2024-07-29 073122.png" alt="https://digdig.io">
+            <img src="#" alt="#">
             <h3>Digdig.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Superspin'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Superspin'">
             <img src="Screenshot 2024-07-29 073310.png" alt="https://superspin.io">
+            <img src="#" alt="#">
             <h3>Superspin.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Ducklings'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Ducklings'">
             <img src="Screenshot 2024-07-29 073440.png" alt="https://ducklings.io/#643230367">
+            <img src="#" alt="#">
             <h3>Ducklings</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Richup'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Richup'">
             <img src="Screenshot 2024-07-29 074422.png" alt="https://richup.io">
+            <img src="#" alt="#">
             <h3>Richup.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=mk48'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=mk48'">
             <img src="Screenshot 2024-07-29 084329.png" alt="https://mk48.io">
+            <img src="#" alt="#">
             <h3>MK48.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=mineparkour'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=mineparkour'">
             <img src="Screenshot 2024-07-29 084538.png" alt="https://mineparkour.club">
+            <img src="#" alt="#">
             <h3>MineParkour.club</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=mudwars'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=mudwars'">
             <img src="Screenshot 2024-07-29 084802.png" alt="https://mudwars.io">
+            <img src="#" alt="#">
             <h3>MudWars.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=warbot'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=warbot'">
             <img src="Screenshot 2024-07-29 085059.png" alt="https://game.warrobots.com/page36306454.html?_1lr=0-3799240_2078650_166853507471&oprtrack=4773__1larg_sub%3D166853507471%26gclid%3DCj0KCQjw-5y1BhC-ARIsAAM_oKlCDw2OQhCmDQNi0QJDx7ckoUCGAoVAkjlGI_HPDq2se2_g0SHgBo8aAgH2EALw_wcB%26url%3Dhttps%253A%252F%252Fgame.warrobots.com%252Fpage36306454.html%253Fgad_source%253D1&gclid=Cj0KCQjw-5y1BhC-ARIsAAM_oKlCDw2OQhCmDQNi0QJDx7ckoUCGAoVAkjlGI_HPDq2se2_g0SHgBo8aAgH2EALw_wcB">
+            <img src="#" alt="#">
             <h3>Warbot.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=mope'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=mope'">
             <img src="Screenshot 2024-07-29 085529.png" alt="https://mope.io">
+            <img src="#" alt="#">
             <h3>Mope.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=crowdcity'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=crowdcity'">
             <img src="Screenshot 2024-07-29 085833.png" alt="https://crowdcity.io">
+            <img src="#" alt="#">
             <h3>CrowdCity.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=superhex'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=superhex'">
             <img src="Screenshot 2024-07-29 090033.png" alt="https://super-hex.io">
+            <img src="#" alt="#">
             <h3>SuperHex.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=gats'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=gats'">
             <img src="Screenshot 2024-07-29 090202.png" alt="https://gats.io">
+            <img src="#" alt="#">
             <h3>Gats.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=eparkour'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=eparkour'">
             <img src="Screenshot 2024-07-29 090355.png" alt="https://eparkour.io">
+            <img src="#" alt="#">
             <h3>eParkour.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=creatur'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=creatur'">
             <img src="Screenshot 2024-07-29 090730.png" alt="https://www.creatur.io">
+            <img src="#" alt="#">
             <h3>Creatur.io</h3>  
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=armedforces'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=armedforces'">
             <img src="Screenshot 2024-07-29 091018.png" alt="https://armedforces.io">
+            <img src="#" alt="#">
             <h3>ArmedForces.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=betrayal'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=betrayal'">
             <img src="Screenshot 2024-07-29 091528.png" alt="https://betrayal.io">
+            <img src="#" alt="#">
             <h3>Betrayal.io</h3>  
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=copter'">
+       <div class="game-item game-hoverg" onclick="window.location.href='fullscreen.html?game=copter'">
             <img src="Screenshot 2024-07-29 091832.png" alt="https://copter.io">
             <h3>Copter.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=pung'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=pung'">
             <img src="Screenshot 2024-07-29 092027.png" alt="https://pung.io">
+            <img src="#" alt="#">
             <h3>Pung.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=moomoo'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=moomoo'">
             <img src="Screenshot 2024-08-05 222351.png" alt="moomoo.io/?server=us-west:">
+            <img src="#" alt="#">
             <h3>MooMoo.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=minecraft'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=minecraft'">
             <img src="Screenshot 2024-07-29 092348.png" alt="https://mine-craft.io">
+            <img src="#" alt="#">
             <h3>Mine-Craft.io</h3>
        </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=bombhopper'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=bombhopper'">
             <img src="Screenshot 2024-07-29 092433.png" alt="https://bombhopper.io">
+            <img src="#" alt="#">
             <h3>BombHopper.io</h3>
         </div>
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Tribals'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Tribals'">
             <img src="Screenshot 2024-08-05 214903.png" alt="https://tribals.io">
+            <img src="#" alt="#">
             <h3>tribals.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=justfall'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=justfall'">
             <img src="Screenshot 2024-07-29 092751.png" alt="https://justfall.lol">
+            <img src="#" alt="#">
             <h3>JustFall.lol</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=evoblade'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=evoblade'">
             <img src="Screenshot 2024-07-29 093237.png" alt="https://evoblade.io">
+            <img src="#" alt="#">
             <h3>EvoBlade.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=lolshot'">
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=lolshot'">
             <img src="Screenshot 2024-07-29 093546.png" alt="https://lolshot.io">
+            <img src="#" alt="#">
             <h3>LolShot.io</h3>
       </div>
-       <div class="game-item" onclick="window.location.href='fullscreen.html?game=armyclash'"> 
+       <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=armyclash'"> 
             <img src="Screenshot 2024-07-29 094043.png" alt="https://armyclash.io">
+            <img src="#" alt="#">
             <h3>ArmyClash.io</h3>
        </div> 
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=flappyroyale'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=flappyroyale'">
             <img src="Screenshot 2024-08-01 165550.png" alt="https://flappyroyale.io">
+            <img src="#" alt="#">
             <h3>Army Men - Sarge's Heroes (USA)</h3>
         </div> 
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=smbros'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=smbros'">
             <img src="Screenshot 2024-08-01 170653.png" alt="https://www.retrogames.cc/embed/32117-super-smash-bros-usa.html">
+            <img src="#" alt="#">
             <h3>Super Smash Bros. (USA)</h3>
         </div> 
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=itsa'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=itsa'">
             <img src="Screenshot 2024-08-02 082229.png" alt="https://www.retrogames.cc/embed/45182-mario-gets-a-dmca-on-twitch-64.html">
+            <img src="#" alt="#">
             <h3>Mario gets a DMCA on Twitch 64</h3>
         </div> 
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=hackedmariotwoplay'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=hackedmariotwoplay'">
             <img src="Screenshot 2024-08-02 083659.png" alt="https://www.retrogames.cc/embed/44789-super-mario-bros-two-player-hack-shared-lives.html">
+            <img src="#" alt="#">
             <h3>Super Mario Bros. Two-Player Hack (Shared Lives)</h3>
         </div> 
-        <div class="game-item" onclick="window.location.href='fullscreen.html?game=Tetris'">
+        <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=Tetris'">
             <img src="Screenshot 2024-08-02 084959.png" alt="https://www.retrogames.cc/embed/17612-tetris-usa.html">
+            <img src="#" alt="#">
             <h3>Tetris (USA)</h3>
               
         
