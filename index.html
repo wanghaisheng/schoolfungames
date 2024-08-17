@@ -74,6 +74,39 @@
     }
   </style>
 </head>
+<style>
+    /* Hide the mobile message by default */
+    .mobile-message {
+        display: none;
+    }
+
+    /* Display the mobile message only on mobile devices */
+    @media only screen and (max-width: 768px) {
+        .mobile-message {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white; /* Optional: to ensure a clear background */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 1000; /* Ensure it appears on top of other content */
+        }
+
+        .mobile-message img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+</style>
+
+<div class="mobile-message">
+    <img src="sorrymobile-Photoroom.png" alt="Sorry, this website isn't for mobile">
+</div>
+
 <body>
   <div id="sidebar" class="sidebar">
     <a href="index.html">Home 🏠</a>
@@ -251,7 +284,7 @@
        </div>
         <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=ships3d'">
             <img src="Screenshot 2024-07-28 180650.png" alt="https://yp3d.com/ships3d/">
-            <img src="ships3d - Made with Clipchamp.gif" alt="#">
+            <img src="ships3dko.gif" alt="#">
             <h3>Ships 3d</h3>
        </div>
         <div class="game-item game-hover" onclick="window.location.href='fullscreen.html?game=flower'">
